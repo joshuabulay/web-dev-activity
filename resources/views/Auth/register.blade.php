@@ -1,5 +1,5 @@
 @extends('base')
-
+<!--this is my registeration form-->
 @section('title', 'Register')
 
 @section('content')
