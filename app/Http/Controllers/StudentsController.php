@@ -20,7 +20,7 @@ class StudentsController extends Controller
             'age' => 'required',
             'gender' => 'required'
         ]);
-
+        //new user
         $addNewSTD = new student();
         $addNewSTD->name = $request->name;
         $addNewSTD->age = $request->age;
